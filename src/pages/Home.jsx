@@ -1,0 +1,24 @@
+import React from "react";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Works from "../components/Works";
+import Tools from "../components/Tools";
+import Projects from "../components/Projects";
+import WorksList from "../works/WorksList";
+import About from "../components/About";
+
+const Home = () => {
+  return (
+    <div className="px-72 bg-rose-100 h-fit pb-20">
+      <Navbar />
+      <Hero />
+      <About />
+      <Works />
+      <Tools />
+      <Projects />
+      {/* <WorksList /> */}
+    </div>
+  );
+};
+
+export default Home;

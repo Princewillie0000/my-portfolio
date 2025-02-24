@@ -1,0 +1,80 @@
+import React from "react";
+
+const Tools = () => {
+  return (
+    <div>
+      <h1 className="text-2xl font-medium pb-2 tracking-wide font-sans pt-10">
+        Tools
+      </h1>
+      <p className="tracking-wider text-lg font-sans font-light">
+        My primary technologies are Typescript & Python. Below are some
+        languages/tools which I utilize for an efficient workflow, school
+        projects or to upgrade my arsenal of tools for the right job.
+      </p>
+
+      <div className="grid grid-cols-4 gap-14 mt-10 font-bold">
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/typescript.png" />
+          <p>Typescript</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/react.png" />
+          <p>React</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[30px]" src="/tailwind.png" />
+          <p>TailwindCSS</p>
+        </div>
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/python.png" />
+          <p>Python</p>
+        </div>
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/mongo.png" />
+          <p>MongoDB</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/mysql.png" />
+          <p>MySQL</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/git.png" />
+          <p>Git</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/redux.png" />
+          <p>Redux</p>
+        </div>
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/next.png" />
+          <p>Node.JS</p>
+        </div>
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/next.png" />
+          <p>Next.JS</p>
+        </div>
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/express.png" />
+          <p>Express</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/html.png" />
+          <p>HTML</p>
+        </div>
+
+        <div className="flex gap-3 items-center">
+          <img className="animate-ping w-[25px]" src="/css.png" />
+          <p>CSS</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Tools;
