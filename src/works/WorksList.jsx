@@ -8,7 +8,7 @@ const WorksList = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-rose-100 h-fit pt-20 px-72 pb-14">
+    <section className="bg-rose-100 h-fit pt-20 lg:px-72 px-8 pb-14">
       <button
         className="flex gap-2 p-2 bg-white rounded-sm font-bold cursor-pointer "
         onClick={() => navigate(-1)}
@@ -16,10 +16,10 @@ const WorksList = () => {
         <ArrowLeft />
         <span>Back</span>
       </button>
-      <h1 className="mt-20 text-4xl font-bold text-gray-500">
+      <h1 className="mt-20 lg:text-4xl text-center font-bold text-gray-500 text-[1rem] lg:w-full w-[20rem]">
         HERE ARE SOME OF MY PROJECT LINKS
       </h1>
-      <div className="grid grid-cols-3 gap-6 container mx-auto py-4 ">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 container mx-auto py-4 ">
         {Apps.map((item) => {
           return (
             <WorkCards

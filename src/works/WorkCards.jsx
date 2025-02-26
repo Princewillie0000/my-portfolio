@@ -8,13 +8,13 @@ const WorkCards = (props) => {
       <Card
         cover={
           <img
-            className="w-[200px] h-[500px] "
+            className="w-[200px] lg:h-[500px] h-[300px] "
             alt={props.title}
             src={props.image}
           />
         }
       ></Card>
-      <Meta title={props.title} className="text-3xl mt-3" />
+      <Meta title={props.title} className="lg:text-3xl text-2xl mt-3" />
       <Meta
         description={props.description}
         className="text-lg text-gray-500 mb-4"

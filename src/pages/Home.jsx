@@ -9,7 +9,7 @@ import About from "../components/About";
 
 const Home = () => {
   return (
-    <div className="px-72 bg-rose-100 h-fit pb-20">
+    <div className="lg:px-72 px-8 bg-rose-100 h-fit pb-20 ">
       <Navbar />
       <Hero />
       <About />

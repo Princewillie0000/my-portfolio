@@ -2,17 +2,22 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-15">
-      <h1 className="text-2xl font-medium pb-2 tracking-wide font-sans">
+    <div className="lg:mt-15 mt-10">
+      <h1 className="lg:text-2xl text-lg font-medium pb-2 tracking-wide font-sans w-[10rem]">
         About Me
       </h1>
-      <p className="tracking-wider text-lg font-sans font-light">
-        My journey in software development began during my time at Aptech
-        Computer Education, where I led numerous projects and was honored as the
-        best graduating student upon graduation. Though my mom once envisioned a
-        career in neurosurgery for me, I found my true passion in programming,
-        and I haven't looked back since.
-        <p className="tracking-wider text-lg font-sans mt-6">
+      <h4 className="tracking-wider lg:text-lg text-[1rem] font-sans font-light lg:w-full w-[20rem]">
+        My journey in software development began during my time at{" "}
+        <i className="font-bold">Aptech Computer Education,</i> where I led
+        numerous projects and was honored as the best graduating student upon
+        graduation. I also went further and bagged a diploma with{" "}
+        <i className="font-bold">GOMYCODE NIG</i>. I also have a successful a
+        career in Visual Arts, this means i see things differently and my
+        understanding towards User interface and User Experience has evolved and
+        solidly ahapped all through my career in Arts. As time went by, I found
+        my true passion in Computer Programming, and I haven't looked back
+        since.
+        <p className="tracking-wider lg:text-lg text-[1rem] font-sans mt-6">
           I believe in giving your best and doing what you love, and this
           website is my way of sharing my journey, learning experiences, and fun
           projects with a broader audience—not just tech enthusiasts but anyone
@@ -25,7 +30,7 @@ const About = () => {
           share online. I hope this space leaves you feeling impressed and
           perhaps even thinking, "I have to hire this guy!"!.
         </p>
-      </p>
+      </h4>
     </div>
   );
 };

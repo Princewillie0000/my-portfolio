@@ -28,7 +28,7 @@ const Apps = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczPVpHAjHTfVuJRwrDIvGP4uASuaa2VnhCw&s",
     title: "Redmiller",
     description:
-      "Redbiller is making the internet safer for businesses to innovate and expand. ",
+      "Redbiller is making the internet safer for businesses to innovate and expand across several horizons. ",
     link: "https://ndubuisi-princewill-s-redmiller-s-project.vercel.app/",
   },
   {
