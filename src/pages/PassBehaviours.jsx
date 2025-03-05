@@ -65,7 +65,7 @@ const PassBehaviours = () => {
       </div>
 
       <div
-        className="p-[0.5rem] bg-black text-red-700 tracking-wide py-8 z-50"
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
         // style={{
         //   padding: "5px 15px",
         //   backgroundColor: "#000",
@@ -93,12 +93,13 @@ const PassBehaviours = () => {
       </p>
 
       <div
-        style={{
-          padding: "5px 15px",
-          backgroundColor: "#000",
-          color: "red",
-          lineHeight: 1.5,
-        }}
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
+        // style={{
+        //   padding: "5px 15px",
+        //   backgroundColor: "#000",
+        //   color: "red",
+        //   lineHeight: 1.5,
+        // }}
       >
         <pre>
           <code>
@@ -119,12 +120,13 @@ const PassBehaviours = () => {
       </p>
 
       <div
-        style={{
-          padding: "5px 15px",
-          backgroundColor: "#000",
-          color: "red",
-          lineHeight: 1.5,
-        }}
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
+        // style={{
+        //   padding: "5px 15px",
+        //   backgroundColor: "#000",
+        //   color: "red",
+        //   lineHeight: 1.5,
+        // }}
       >
         <pre>
           <code>
@@ -162,12 +164,13 @@ const PassBehaviours = () => {
       </div>
 
       <div
-        style={{
-          padding: "5px 15px",
-          backgroundColor: "#000",
-          color: "red",
-          lineHeight: 1.5,
-        }}
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
+        // style={{
+        //   padding: "5px 15px",
+        //   backgroundColor: "#000",
+        //   color: "red",
+        //   lineHeight: 1.5,
+        // }}
       >
         <pre>
           <code>
@@ -188,12 +191,13 @@ const PassBehaviours = () => {
       </p>
 
       <div
-        style={{
-          padding: "5px 15px",
-          backgroundColor: "#000",
-          color: "red",
-          lineHeight: 1.5,
-        }}
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
+        // style={{
+        //   padding: "5px 15px",
+        //   backgroundColor: "#000",
+        //   color: "red",
+        //   lineHeight: 1.5,
+        // }}
       >
         <pre>
           <code>
@@ -229,12 +233,13 @@ const PassBehaviours = () => {
       </div>
 
       <div
-        style={{
-          padding: "5px 15px",
-          backgroundColor: "#000",
-          color: "#fff",
-          lineHeight: 1.5,
-        }}
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
+        // style={{
+        //   padding: "5px 15px",
+        //   backgroundColor: "#000",
+        //   color: "#fff",
+        //   lineHeight: 1.5,
+        // }}
       >
         <pre>
           <code>
@@ -256,12 +261,13 @@ const filterEighteenPlusStemStudent: StudentPredicate = (student) => {
       </p>
 
       <div
-        style={{
-          padding: "5px 15px",
-          backgroundColor: "#000",
-          color: "#fff",
-          lineHeight: 1.5,
-        }}
+        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
+        // style={{
+        //   padding: "5px 15px",
+        //   backgroundColor: "#000",
+        //   color: "#fff",
+        //   lineHeight: 1.5,
+        // }}
       >
         <pre>
           <code>
