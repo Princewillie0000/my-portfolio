@@ -64,15 +64,7 @@ const PassBehaviours = () => {
         </p>
       </div>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "red",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             type Student={" "}
@@ -92,15 +84,7 @@ const PassBehaviours = () => {
         that. Something like this;
       </p>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "red",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             {`function filterStudentByDepartment(
@@ -119,15 +103,7 @@ const PassBehaviours = () => {
         age”. And we would have another function that looks thus;
       </p>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "red",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             {`function filterStudentByDepartmentAndAge(
@@ -163,15 +139,7 @@ const PassBehaviours = () => {
         </p>
       </div>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "red",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             {`function filterStudents(
@@ -190,15 +158,7 @@ const PassBehaviours = () => {
         reusable conditions using the StudentPredicate type:
       </p>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "red",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             {`type StudentPredicate = (student: Student) => boolean;`}
@@ -232,15 +192,7 @@ const PassBehaviours = () => {
         </p>
       </div>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "#fff",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             {`// # TASK A
@@ -260,15 +212,7 @@ const filterEighteenPlusStemStudent: StudentPredicate = (student) => {
         Let’s apply these behaviours:
       </p>
 
-      <div
-        className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto"
-        // style={{
-        //   padding: "5px 15px",
-        //   backgroundColor: "#000",
-        //   color: "#fff",
-        //   lineHeight: 1.5,
-        // }}
-      >
+      <div className="p-[0.5rem] bg-black text-white tracking-wide py-8 z-50 max-w-[1500px] overflow-x-auto">
         <pre>
           <code>
             {`// Filtering students in the STEM department

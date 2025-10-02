@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import Works from "../components/Works";
 import Tools from "../components/Tools";
 import Projects from "../components/Projects";
-import WorksList from "../works/WorksList";
 import About from "../components/About";
 
 const Home = () => {

@@ -69,13 +69,22 @@ const Projects = () => {
       <hr className="text-red-800 mt-10"></hr>
 
       <div className="flex lg:justify-evenly justify-center gap-3 pt-7 font-bold text-lg">
-        <a className="text-green-800" href="https://github.com/princewill1993">
+        <a
+          className="text-green-800"
+          href="https://github.com/Princewillie0000"
+        >
           Github
         </a>
-        <a className="text-green-800" href="https://github.com/princewill1993">
+        <a
+          className="text-green-800"
+          href="https://github.com/Princewillie0000"
+        >
           LinkedIn
         </a>
-        <a className="text-green-800" href="https://github.com/princewill1993">
+        <a
+          className="text-green-800"
+          href="https://github.com/Princewillie0000"
+        >
           Twitter
         </a>
       </div>
